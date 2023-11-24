@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d03b1367a202741a16e0c24633a7de, type: 3}
+  m_Name: ShooterData
+  m_EditorClassIdentifier: 
+  _maxHealth: 70
+  _damage: 5
+  _speed: 3
+  _angularSpeed: 30
+  _shipStates:
+  - _healthLostPercentThreshold: 0
+    _shipSkin: {fileID: 11400000, guid: 6f49fcc6c05f4c44083032c63484db17, type: 2}
+  - _healthLostPercentThreshold: 0.3
+    _shipSkin: {fileID: 11400000, guid: fa5bad4ba4d49b749bf80e90b530d336, type: 2}
+  - _healthLostPercentThreshold: 0.6
+    _shipSkin: {fileID: 11400000, guid: 443c023c1f6697748b3d5ca6a3691a9c, type: 2}
+  _maxShootingDistance: 5.5
+  _distanceToMoveFromPlayer: 3.5
+  _distanceToMoveFromPlayerThreshold: 0.7
+  _maxRepositioningAngle: 150
+  _projectileSpeed: 8
+  _firstShotDelay: 0.75
+  _shotsPerCharge: 3
+  _delayBetweenShots: 0.15
+  _rechargeTimeSeconds: 3

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9268319163137e46b6ca9a13853b7c9, type: 3}
+  m_Name: ChaserSkin3
+  m_EditorClassIdentifier: 
+  _hull: {fileID: -923695104, guid: 66fd4cf9c04782748b5028a8b8b2ddd3, type: 3}
+  _mainSail: {fileID: -1238467296, guid: 66fd4cf9c04782748b5028a8b8b2ddd3, type: 3}
+  _smallSail: {fileID: 0}
+  _mast: {fileID: 1951137628, guid: 66fd4cf9c04782748b5028a8b8b2ddd3, type: 3}
+  _mastPole: {fileID: 1269877636, guid: 66fd4cf9c04782748b5028a8b8b2ddd3, type: 3}
